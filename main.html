@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>B > A ?</h1>
+        <form id="form-numeros">
+            <p> Escolha dois números diferentes para o campo A e B</p>
+            <input type="number" id="numeroA" required placeholder="Digite o número A" />
+            <input type="number" id="numeroB" required placeholder="digite o número B" />
+            <button type="submit" id="verificar">Verificar</button>
+            <p class="mensagemErro"> O número A é maior que o número B. Tente novamente.</p>
+            <p class="mensagemSucesso">Parabéns! O número B é maior que o número A</p>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
